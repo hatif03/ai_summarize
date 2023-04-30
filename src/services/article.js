@@ -11,7 +11,7 @@ const getSummary = async (get_url, setFetching) => {
         },
         headers: {
           'content-type': 'application/octet-stream',
-          'X-RapidAPI-Key': "3c062c1b06msh689503a5652a7eap160b05jsn295453b022f7",
+          'X-RapidAPI-Key': API_KEY,
           'X-RapidAPI-Host': 'article-extractor-and-summarizer.p.rapidapi.com'
         }
       };
